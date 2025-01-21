@@ -1,0 +1,77 @@
+/* Ejercicio 1: Diseño titulo principal */
+h1{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Ejercicio 2: Añadir fondo y espaciar el texto */
+
+h2 {
+background-image: linear-gradient(to right, lightblue, white);
+padding: 10px;
+line-height: 1,5;
+}
+
+/* Ejercicio 3: Estilo de los elementos de las listas */
+
+li strong{
+color: brown;
+}
+
+/* Ejercicio 4: Estilo de las calificaciones */
+
+li span{
+color: gold
+}
+
+/* Ejercicio 5: Estilo de la tabla */
+
+table{
+width: 100%;
+border-collapse: collapse;
+margin: 20px 0;
+}
+
+tr th{
+background-color: rgb(192, 190, 190);
+border: 1px solid black;
+padding: 10px;
+}
+
+tr td{
+text-align: center;
+border: 1px solid black;
+padding: 10px;
+}
+
+/* Ejercicio 6: Estilo a los enlaces */
+
+a{
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+/* Ejercicio 7: Estilo del pie de pagina */
+
+footer{
+text-align: center;
+font-size: 0.8em;
+margin-top: 20px;
+color: gray;
+}
+
+/* Ejercicio 8: Imagen de fondo para el título y el primer párrafo */
+#titulo-principal, .p-first{
+
+background-image: url(imgs/abstract-template-background-white-and-gray-squares-free-vector.jpg);
+background-size: cover;
+background-position: center;
+color: black;
+padding: 20px;
+}
+
